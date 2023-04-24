@@ -3,10 +3,8 @@ body {
     margin: 0;
     padding: 0;
     overflow-y: hidden;
-}
-
-html, body {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -34,6 +32,7 @@ nav {
 
 .content {
     padding: 20px;
+    flex: 1;
 }
 
 h1 {
@@ -42,10 +41,10 @@ h1 {
 }
 
 .scrollable-content {
-    max-height: 80vh;
+    height: 100%;
     overflow-y: scroll;
-    padding-right: 10px;
 }
+
 
 @media (max-width: 600px) {
     .nav-button {
