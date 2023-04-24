@@ -45,6 +45,9 @@ h1 {
     overflow-y: scroll;
 }
 
+.title {
+  font-size: 24px;
+}
 
 @media (max-width: 600px) {
     .nav-button {
