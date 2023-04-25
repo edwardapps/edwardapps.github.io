@@ -19,7 +19,7 @@ nav {
 }
 
 .nav-btn {
-  background-color: #04AA6D;
+  background-color: grey;
   border: none;
   color: white;
   padding: 20px;
@@ -28,7 +28,7 @@ nav {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 .content {
